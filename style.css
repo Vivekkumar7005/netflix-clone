@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    background: black;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner_heading {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 320px;
+    margin-top: 100px;
+    color: white;
+}
+
+.banner_heading p {
+    font-size: 82px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: black;
+    display: inline;
+    background-color: #9E090B;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 18px;
+}
+
+.navbar img {
+    width: 160px;
+}
+
+.nav_bg {
+    background-color: black;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.movie_title {
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.movie_list {
+    width: 100%;
+    color: white;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.movie_img img {
+    width: 100%;
+}
+
+.movie_card {
+    width: 380px;
+    height: 300px;
+    float: left;
+    font-size: 24px;
+    padding: 20px 10px;
+    transition: transform .5s;
+    background-color: black;
+    text-decoration: none;
+}
+
+.movie_card a {
+    text-decoration: none;
+}
+
+.movie_card:hover {
+    transform: scale(1.2);
+}
+
+.movie_card span {
+    color: red;
+    float: right;
+    font-size: 20px;
+}
+
+.movie_card a {
+    color: white;
+}
